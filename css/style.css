@@ -1,0 +1,184 @@
+.navbar-nav .nav-item .nav-link {
+    text-decoration: none;
+}
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    text-decoration: underline;
+}
+
+.active{
+    color: rgba(0, 153, 255, 0.705) !important;
+    border-bottom: 3px solid rgb(0, 153, 255);
+}
+
+
+.dropdown-item.active {
+    all: none;
+    background: rgb(255, 255, 255);
+    display: list-item; 
+    list-style-type: disc;
+    list-style-position: inside;
+    text-decoration: none;
+}
+
+table {
+    counter-reset: rowNumber;
+    table-layout: fixed;
+}
+
+td, th {
+    white-space: normal !important; 
+    word-wrap: break-word;  
+  }
+
+table tr:not(:first-child) {
+    counter-increment: rowNumber;
+}
+
+table tr td:first-child::before {
+    content: counter(rowNumber);
+    min-width: 1em;
+    margin-right: 0.5em;
+}
+
+#datatable caption {
+    caption-side: top;
+}
+
+.cap {
+    color: #6c757d;
+}
+
+.last_th {
+    vertical-align: middle;
+}
+
+img {
+    max-height: 300px;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:100%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:10px;
+    height:90%;
+    width:100%;
+    position:absolute;
+}
+
+footer {
+    background-color:#F8F9FA;
+}
+
+/* Product hover */
+.product-main
+{
+	width:100%;
+	height:auto;
+	border-bottom:2px #323233 solid;
+	background:#fff;
+	text-align:center;
+	border-radius:1px;
+	overflow:hidden;
+	position:relative;
+	transition:1.5s;
+	margin-bottom:28px;
+}
+
+
+.product-main img
+{
+	border-radius:10%;
+	margin-bottom:5px;
+	width: 200px;
+}
+
+.product-main p
+{
+	margin-bottom:0;
+}
+
+.product-back
+{
+	width:100%;
+	height:auto;
+	position:absolute;
+	top:0;
+	left:0;
+	padding:5px 15px 0 15px;
+	text-align:left;
+	background:#fff;
+	
+}
+
+.product-front
+{
+	width:100%;
+	height:auto;
+	position:relative;
+	z-index:10;
+	background:#fff;
+	padding:15px;
+	bottom:0px;
+	transition: all 1.5s ease;
+}
+
+.product-main:hover .product-front
+{
+	bottom:-500px;
+	transition: all 1.5s ease;
+}
+
+.product-main:hover
+{
+	border-color:#777;
+	transition:1.5s;
+}
+
+/* Flip Card */
+.flip-card {
+    background-color: transparent;
+    width: 350px;
+    height: 350px;
+    perspective: 1000px;
+    padding: 10px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    /* background-color: #bbb;
+    color: black; */
+    padding: 10px;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
