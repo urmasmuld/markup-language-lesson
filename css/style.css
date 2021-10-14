@@ -21,7 +21,7 @@
     text-decoration: none;
 }
 
-.dropdown-item, .dropdown-toggle {
+.dropdown-toggle {
     color: #007bff !important;
 }
 
