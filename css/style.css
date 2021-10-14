@@ -21,6 +21,10 @@
     text-decoration: none;
 }
 
+.dropdown-item, .dropdown-toggle {
+    color: #007bff !important;
+}
+
 table {
     counter-reset: rowNumber;
     table-layout: fixed;
