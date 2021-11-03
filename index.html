@@ -14,9 +14,9 @@
   <body>
 
 <!-- Navigation, Logo -->
-<nav class="container navbar navbar-expand-md navbar-light bg-light rounded border-bottom sticky-top">
+<nav class="container navbar navbar-expand-md navbar-light bg-light rounded border-bottom sticky-top mb-4">
     <a class="navbar-brand" href="index.html">
-        <img src="images/logo.jpg" class="img-fluid border" alt="Company logo">
+        <img src="images/logo.jpg" class="img-fluid border rounded" alt="Company logo">
     </a>
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,84 +46,107 @@
 
   <!-- Page Content -->
     <div class="container">
-        <div class="pt-4"></div>
-        <div class="container border">
-            <h1 class="mt-4">Welcome to V-V Doors & Windows site!</h1>
-            <p lang="zxx">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio rem illo atque est reiciendis, perferendis at veniam maiores nam corporis fuga deserunt odit itaque ipsa, ut reprehenderit? Dolores consequuntur architecto odio quis corporis quae facilis nostrum commodi perspiciatis illum. Aut similique excepturi accusamus, maxime, ullam ducimus numquam suscipit doloremque reiciendis eaque praesentium aperiam voluptate aspernatur dolor quaerat? Nam veniam, possimus ea iusto quasi iure tempora dolorem. Sed iure animi quidem, ab voluptates voluptate quo perferendis fuga nisi fugit dicta facere ipsa, earum neque sit error quasi impedit, in repellendus nobis quisquam. Voluptatum officiis corporis, aperiam ratione aliquid temporibus? Nemo omnis beatae officiis veritatis nostrum inventore excepturi, consequatur sequi molestias. Possimus unde, dolores incidunt quia doloribus tempora non numquam quaerat necessitatibus dicta voluptas similique. Omnis porro, corporis at modi ab sapiente cupiditate provident voluptatum enim animi? Labore voluptatibus autem excepturi voluptas possimus ipsum distinctio suscipit, assumenda nulla neque vel ex hic maiores sequi sapiente corrupti, consequuntur eveniet aliquid dignissimos. Illo dolore minima nulla. Reprehenderit quasi ex libero ullam optio debitis alias quae distinctio dolorum recusandae excepturi mollitia quas iure provident sapiente at labore dolores dolorem dicta consectetur, nemo nesciunt deleniti iste rerum. Quis qui fugit totam! Obcaecati corporis laboriosam sit illum!
-            </p>
+      <div class="row border rounded mb-4"> <!-- Welcome container -->
+        <div class="col-12 p-4">
+          <h1>Welcome to V-V Doors & Windows site!</h1>
+          <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio rem illo atque est reiciendis, perferendis at veniam maiores nam corporis fuga deserunt odit itaque ipsa, ut reprehenderit? Dolores consequuntur architecto odio quis corporis quae facilis nostrum commodi perspiciatis illum. Aut similique excepturi accusamus, maxime, ullam ducimus numquam suscipit doloremque reiciendis eaque praesentium aperiam voluptate aspernatur dolor quaerat? Nam veniam, possimus ea iusto quasi iure tempora dolorem. Sed iure animi quidem, ab voluptates voluptate quo perferendis fuga nisi fugit dicta facere ipsa, earum neque sit error quasi impedit, in repellendus nobis quisquam. Voluptatum officiis corporis, aperiam ratione aliquid temporibus? Nemo omnis beatae officiis veritatis nostrum inventore excepturi, consequatur sequi molestias. Possimus unde, dolores incidunt quia doloribus tempora non numquam quaerat necessitatibus dicta voluptas similique. Omnis porro, corporis at modi ab sapiente cupiditate provident voluptatum enim animi? Labore voluptatibus autem excepturi voluptas possimus ipsum distinctio suscipit, assumenda nulla neque vel ex hic maiores sequi sapiente corrupti, consequuntur eveniet aliquid dignissimos. Illo dolore minima nulla. Reprehenderit quasi ex libero ullam optio debitis alias quae distinctio dolorum recusandae excepturi mollitia quas iure provident sapiente at labore dolores dolorem dicta consectetur, nemo nesciunt deleniti iste rerum. Quis qui fugit totam! Obcaecati corporis laboriosam sit illum!
+          </p>
         </div>
+      </div> <!-- Welcome container END -->
 
-        <div class="pt-4"></div>
-        <div class="container border">
-            <div class="cap border-bottom"><h4>Contact:</h4></div><br>
-            <div class="row">
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <div class="col">
-                            <figure class="figure float-left">
-                                <img src="./images/dummy-member.jpg" class="figure-img img-fluid rounded img-thumbnail" alt="profile_pic">
-                                <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
-                            </figure>
+        <div class="row border rounded justify-content-center mb-4"> <!-- Contact container -->
+          <div class="col-12 p-4">
+            <div class="cap border-bottom mb-4"><h4>Contact:</h4></div>
+              <div class="row"> <!-- Another row inside column grid -->
+                <!-- Board member card -->
+                <div class="col-4">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <div class="col">
+                              <figure class="figure float-left">
+                                  <img src="./images/dummy-member.jpg" class="figure-img img-fluid rounded img-thumbnail" alt="profile_pic">
+                                  <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                              </figure>
+                          </div>
+                          </div>
+                        <div class="flip-card-back">
+                          <h1>John Smith</h1> 
+                          <p>Board Member</p>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                              <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg>
+                          (650) 308-7300
                         </div>
-                       </div>
-                      <div class="flip-card-back">
-                        <h1>John Smith</h1> 
-                        <p>Board Member</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                          </svg>
-                        (650) 308-7300
                       </div>
                     </div>
                   </div>
-
-                <div class="col">
-                    <!-- <div class="container-fluid"> -->
-                        <div class="map-responsive">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7044.170816207423!2d25.667640397216413!3d58.389652033226675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eca21862a0de13%3A0x4703955e97110ade!2sViljandi%20Kutse%C3%B5ppekeskus!5e0!3m2!1set!2see!4v1634037914270!5m2!1set!2see" width="400" height="300" class="figure-img img-fluid rounded img-thumbnail" allowfullscreen="" loading="lazy"></iframe>
+                <!-- Board member card END -->
+                <!-- Google map -->
+                  <div class="col-4">
+                    <div class="gmap-card">
+                      <div class="gmap-card-inner">
+                        <div class="gmap-card-front">
+                          <div class="col">
+                              <figure class="figure float-right">
+                                <a href="https://g.page/viljandikutseoppekeskus" target="_blank">
+                                  <img src="./images/map.png" class="figure-img img-fluid rounded img-thumbnail" alt="coordinates">
+                                </a>
+                                  <figcaption class="figure-caption text-center">A caption for the above location.<br>Click on the map to open it in new tab</figcaption>
+                              </figure>
+                          </div>
                         </div>
-                    <!-- </div> -->
-                </div>
-
-                <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <div class="col">
-                            <figure class="figure float-right">
-                                <img src="./images/72-723761_student-png-sammilani-mahavidyalaya-undergraduate-and-dummy-user.png" class="figure-img img-fluid rounded img-thumbnail" alt="profile_pic">
-                                <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
-                            </figure>
-                        </div>
-                      </div>
-                      <div class="flip-card-back">
-                        <h1>John Doe</h1> 
-                        <p>Architect & Engineer</p> 
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
-                            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
-                          </svg>
-                          202-456-2121
                       </div>
                     </div>
                   </div>
-            </div>
-        </div>
+                <!-- Google map end -->
+                <!-- Architect card -->
+                <div class="col-4">
+                  <div class="flip-card">
+                      <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                          <div class="col">
+                              <figure class="figure float-right">
+                                  <img src="./images/72-723761_student-png-sammilani-mahavidyalaya-undergraduate-and-dummy-user.png" class="figure-img img-fluid rounded img-thumbnail" alt="profile_pic">
+                                  <figcaption class="figure-caption text-center">A caption for the above image.</figcaption>
+                              </figure>
+                          </div>
+                        </div>
+                        <div class="flip-card-back">
+                          <h1>John Doe</h1> 
+                          <p>Architect & Engineer</p> 
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                              <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                            </svg>
+                            202-456-2121
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Architect card END -->
+              </div> <!-- Another row inside column grid END -->
+          </div>
+        </div> <!-- Contact container END -->
       </div>
 
     <!-- Footer -->
     <div class="container">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top custom_footer">
-            <p class="col-md-4 mb-0 text-muted">&copy; 2021 Company</p>
+      <div class="row">
+        <footer class="col-12 py-3 mb-4 border-top rounded custom_footer">
+            <span class="text-muted">&copy; 2021 Company</span>
+            
+                <ul class="nav justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link text-muted">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-muted">About us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-muted">Products</a></li>
+                <li class="nav-item"><a href="#" class="nav-link text-muted">FAQs</a></li>
+                </ul>
 
-            <ul class="nav col-md-8 justify-content-end">
-            <li class="nav-item"><a href="#" class="nav-link text-muted">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-muted">About us</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-muted">Products</a></li>
-            <li class="nav-item"><a href="#" class="nav-link text-muted">FAQs</a></li>
-            </ul>
         </footer>
+      </div>
     </div>
+    <!-- Footer END -->
 
     <!-- Bootstrap JS -->
     <script src="./js/jquery-3.5.1.slim.min.js"></script>
