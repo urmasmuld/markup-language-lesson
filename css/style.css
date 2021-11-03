@@ -6,6 +6,10 @@
     text-decoration: underline;
 }
 
+.custom_footer {
+    background-color:#b1c9e0;
+}
+
 .active{
     color: rgba(0, 153, 255, 0.705) !important;
     border-bottom: 3px solid rgb(0, 153, 255);
