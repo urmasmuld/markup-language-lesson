@@ -13,7 +13,6 @@
 
 
 .dropdown-item.active {
-    all: none;
     background: rgb(255, 255, 255);
     display: list-item; 
     list-style-type: disc;
