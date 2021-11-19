@@ -1,8 +1,15 @@
+@media (max-width: 1200px) {  
+  body {
+    font-size:calc(1rem + 1vw);
+  }
+}
+
 body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; 
+  justify-content: space-between;
+  /* font-size:1rem; */
 }
 
 .colorgraph {
